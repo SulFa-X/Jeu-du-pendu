@@ -1,0 +1,16 @@
+<h1>Jeu du pendu</h1>
+
+<p>{{devine()}}</p>
+
+<p *ngIf="end()">Gagné !</p>
+
+<p>Nombre d'essais : {{try.length}}</p>
+
+<button [disabled]="disableButton(letter) || end()" (click)="onClick(letter)" *ngFor="let letter of letters">{{letter}}</button>
+
+
+<p>Lettres déjà essayées</p>
+
+<li *ngFor='let tried of try'>
+    {{tried}}
+</li>
