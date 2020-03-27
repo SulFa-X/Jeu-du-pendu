@@ -1,6 +1,6 @@
 {
-  "name": "projet1",
-  "short_name": "projet1",
+  "name": "Jeu du Pendu",
+  "short_name": "Jeu du Pendu",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
