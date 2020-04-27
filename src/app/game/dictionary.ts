@@ -1491,4 +1491,4 @@ export const dictionary = [
     'guider',
     'piquer',
     'meilleur'
-].filter(x => /^[a-z]*$/.test(x));
+].filter(x => /^[a-z]*$/.test(x)).filter(x => x.length >= 5);
