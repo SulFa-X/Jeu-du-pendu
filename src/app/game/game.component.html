@@ -2,15 +2,20 @@
 
 <p>{{devine()}}</p>
 
-<p *ngIf="end()">Gagné !</p>
+<p class="win" *ngIf="end()">Gagné !
 
-<p>Nombre d'essais : {{try.length}}</p>
+    <button class="retry" (click)="start()">Rejouer</button>
 
-<button [disabled]="disableButton(letter) || end()" (click)="onClick(letter)" *ngFor="let letter of letters">{{letter}}</button>
+</p>
+
+<p class="essais">Nombre d'essais : {{try.length}}</p>
+
+<div><button class="letter" [class.try]="isTried(letter)" [class.error]="isError(letter)" [disabled]="isTried(letter) || end()" (click)="onClick(letter)" *ngFor="let letter of letters">{{letter}}</button></div>
 
 
-<p>Lettres déjà essayées</p>
-
-<li *ngFor='let tried of try'>
-    {{tried}}
-</li>
+<div class="essais">
+    <p class="tried">Lettres déjà essayées :</p>
+    <span *ngFor='let tried of try'>
+            {{tried}}
+    </span>
+</div>

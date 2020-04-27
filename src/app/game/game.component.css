@@ -1,0 +1,67 @@
+h1 {
+    color: rgb(19, 14, 82);
+    background-color:rgb(81, 165, 221);
+    margin: 0px 0px 0px 5px;
+}
+
+p.word { 
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 0px 0px 0px 30px;
+}
+
+button.letter {
+    color: black;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+ 
+}
+
+button.letter.try {
+    background-color: rgb(25, 196, 25);
+}
+
+button.letter.try.error {
+    background-color: rgb(255, 55, 55);
+}
+
+p.win {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.retry {
+    color: rgb(173, 25, 231);
+    background-color: rgb(255, 233, 37);
+    font-size: 20px;
+    border: 2px solid rgb(173, 25, 231);
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+}
+
+p.essais {
+    font-weight: bold;
+}
+
+p.tried {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+div {
+    bottom: 20px;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+}
+
+div.essais {
+    top: 30%;
+    position: absolute;
+    z-index: 1;
+}
