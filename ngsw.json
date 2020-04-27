@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1588004642787,
+  "timestamp": 1588004876789,
   "index": "/Jeu-du-pendu/index.html",
   "assetGroups": [
     {
@@ -9,8 +9,8 @@
       "updateMode": "prefetch",
       "urls": [
         "/Jeu-du-pendu/index.html",
-        "/Jeu-du-pendu/main-es2015.341be4df49a23c18bb44.js",
-        "/Jeu-du-pendu/main-es5.341be4df49a23c18bb44.js",
+        "/Jeu-du-pendu/main-es2015.b1dac16c057b39802021.js",
+        "/Jeu-du-pendu/main-es5.b1dac16c057b39802021.js",
         "/Jeu-du-pendu/manifest.webmanifest",
         "/Jeu-du-pendu/polyfills-es2015.1f913f16a2d346cc8bdc.js",
         "/Jeu-du-pendu/polyfills-es5.1a3c78b07cd6f16c6e9a.js",
@@ -48,9 +48,9 @@
     "/Jeu-du-pendu/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/Jeu-du-pendu/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/Jeu-du-pendu/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/Jeu-du-pendu/index.html": "3480f99e898bccfa6871caf9122f690c070324b5",
-    "/Jeu-du-pendu/main-es2015.341be4df49a23c18bb44.js": "a2d42e9801babd312a11672cc7d658f302e4d6c0",
-    "/Jeu-du-pendu/main-es5.341be4df49a23c18bb44.js": "d623ed4f5bfd7846972f70c4fe6e36f38fd384d9",
+    "/Jeu-du-pendu/index.html": "c9c0326e0bf9bf58935e41719214c33ba883fe06",
+    "/Jeu-du-pendu/main-es2015.b1dac16c057b39802021.js": "b0bdf3a092e5b0ae939f3b424564c74a3d4a2762",
+    "/Jeu-du-pendu/main-es5.b1dac16c057b39802021.js": "e983263246c31cd07e4336016b6d04d5157c6394",
     "/Jeu-du-pendu/manifest.webmanifest": "91375ce62ae3cb1803735f1dfd884a93444985ac",
     "/Jeu-du-pendu/pendu.png": "67548d94aff4f8e788ed7cb8439c7c527cc0a157",
     "/Jeu-du-pendu/polyfills-es2015.1f913f16a2d346cc8bdc.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
